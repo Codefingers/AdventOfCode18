@@ -1,0 +1,10 @@
+C:\Users\elukos\RiderProjects\AdventOfCode18\AdventOfCode18\bin\Debug\netcoreapp2.0\AdventOfCode18.dll
+C:\Users\elukos\RiderProjects\AdventOfCode18\AdventOfCode18\bin\Debug\netcoreapp2.0\AdventOfCode18.deps.json
+C:\Users\elukos\RiderProjects\AdventOfCode18\AdventOfCode18\bin\Debug\netcoreapp2.0\AdventOfCode18.runtimeconfig.json
+C:\Users\elukos\RiderProjects\AdventOfCode18\AdventOfCode18\bin\Debug\netcoreapp2.0\AdventOfCode18.runtimeconfig.dev.json
+C:\Users\elukos\RiderProjects\AdventOfCode18\AdventOfCode18\bin\Debug\netcoreapp2.0\AdventOfCode18.pdb
+C:\Users\elukos\RiderProjects\AdventOfCode18\AdventOfCode18\obj\Debug\netcoreapp2.0\AdventOfCode18.csproj.CoreCompileInputs.cache
+C:\Users\elukos\RiderProjects\AdventOfCode18\AdventOfCode18\obj\Debug\netcoreapp2.0\AdventOfCode18.AssemblyInfoInputs.cache
+C:\Users\elukos\RiderProjects\AdventOfCode18\AdventOfCode18\obj\Debug\netcoreapp2.0\AdventOfCode18.AssemblyInfo.cs
+C:\Users\elukos\RiderProjects\AdventOfCode18\AdventOfCode18\obj\Debug\netcoreapp2.0\AdventOfCode18.dll
+C:\Users\elukos\RiderProjects\AdventOfCode18\AdventOfCode18\obj\Debug\netcoreapp2.0\AdventOfCode18.pdb
