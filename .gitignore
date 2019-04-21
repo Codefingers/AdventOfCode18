@@ -1,3 +1,4 @@
-/AdventOfCode18/bin
-/AdventOfCode/obj/Debug
-/AdventOfCode/.idea
+/AdventOfCode18/bin/
+/AdventOfCode/obj/Debug/
+/AdventOfCode/.idea/
+.idea/
