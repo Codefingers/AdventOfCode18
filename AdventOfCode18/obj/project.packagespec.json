@@ -1,13 +1,12 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\elukos\\RiderProjects\\AdventOfCode18\\AdventOfCode18\\AdventOfCode18.csproj",
+    "projectUniqueName": "D:\\Users\\ELukos\\C#Projects\\AdventOfCode18\\AdventOfCode18\\AdventOfCode18.csproj",
     "projectName": "AdventOfCode18",
-    "projectPath": "C:\\Users\\elukos\\RiderProjects\\AdventOfCode18\\AdventOfCode18\\AdventOfCode18.csproj",
-    "outputPath": "C:\\Users\\elukos\\RiderProjects\\AdventOfCode18\\AdventOfCode18\\obj\\",
+    "projectPath": "D:\\Users\\ELukos\\C#Projects\\AdventOfCode18\\AdventOfCode18\\AdventOfCode18.csproj",
+    "outputPath": "D:\\Users\\ELukos\\C#Projects\\AdventOfCode18\\AdventOfCode18\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
@@ -32,6 +31,10 @@
           "target": "Package",
           "version": "[2.0.0, )",
           "autoReferenced": true
+        },
+        "NUnit": {
+          "target": "Package",
+          "version": "[3.11.0, )"
         }
       },
       "imports": [
