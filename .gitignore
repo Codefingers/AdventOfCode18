@@ -1,2 +1,3 @@
-AdventOfCode18/bin/*
-AdventOfCode/obj/Debug/*
+/AdventOfCode18/bin
+/AdventOfCode/obj/Debug
+/AdventOfCode/.idea
