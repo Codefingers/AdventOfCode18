@@ -1,4 +1,5 @@
 /AdventOfCode18/bin/
-/AdventOfCode/obj/Debug/
-/AdventOfCode/.idea/
-.idea/
+/AdventOfCode18/obj/Debug/
+/AdventOfCode18/.idea/
+/AdventOfCode18/AdventOfCode18/.idea/
+/AdventOfCode18/AdventOfCode18/obj/AdventOfCode18.csproj.nuget*
