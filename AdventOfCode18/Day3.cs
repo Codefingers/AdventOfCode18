@@ -5,14 +5,14 @@ namespace AdventOfCode18
 {
     public class Day3
     {
-        public int runTest()
+        public int runTest(string file)
         {
-            return getTotal();
+            return getTotal(file);
         }
 
-        private int getTotal()
+        private int getTotal(string file)
         {
-            string[] lines = System.IO.File.ReadAllLines(@"Day3.txt");
+            string[] lines = System.IO.File.ReadAllLines(file);
             Dictionary<string, int> idToCount = new Dictionary<string, int>();
             Dictionary<string, string> coordToId = new Dictionary<string, string>();
             
@@ -55,14 +55,6 @@ namespace AdventOfCode18
 
                             idToCount[id]++;
 
-//                            foreach (KeyValuePair<string, string> row in coordToId)
-//                            {
-//                                if (row.Key == x.ToString() + "," + y.ToString())
-//                                {
-//                                    idToCount[row.Value]++;
-//                                }
-//                            }
-
                             continue;
                         }
 
@@ -71,14 +63,6 @@ namespace AdventOfCode18
                     }
                 }
             }
-
-//            foreach (KeyValuePair<string, int> anotherRow in idToCount)
-//            {
-//                if (anotherRow.Value == 0)
-//                {
-//                    return int.Parse((anotherRow.Key));
-//                }
-//            }
           
             return totalCount;
         }

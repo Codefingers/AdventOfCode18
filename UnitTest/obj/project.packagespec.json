@@ -1,0 +1,59 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "D:\\Users\\ELukos\\C#Projects\\AdventOfCode18\\UnitTest\\UnitTest.csproj",
+    "projectName": "UnitTest",
+    "projectPath": "D:\\Users\\ELukos\\C#Projects\\AdventOfCode18\\UnitTest\\UnitTest.csproj",
+    "outputPath": "D:\\Users\\ELukos\\C#Projects\\AdventOfCode18\\UnitTest\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "D:\\Users\\ELukos\\C#Projects\\AdventOfCode18\\AdventOfCode18\\AdventOfCode18.csproj": {
+            "projectPath": "D:\\Users\\ELukos\\C#Projects\\AdventOfCode18\\AdventOfCode18\\AdventOfCode18.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[15.9.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
