@@ -6,10 +6,10 @@ namespace AdventOfCode18
     {
         static void Main(string[] args)
         {
-            Day3 day3 = new Day3();
-            int day3Total = day3.runTest(@"Day3.txt");
+            Day8.Day8 day8 = new Day8.Day8();
+            int total = day8.getTotal("Day8/Day8Test.txt");
 
-            Console.WriteLine(day3Total);
+            Console.WriteLine(total);
             Console.ReadLine();
         }
     }

@@ -1,22 +1,23 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\Users\\ELukos\\C#Projects\\AdventOfCode18\\UnitTest\\UnitTest.csproj",
+    "projectUniqueName": "C:\\Users\\elukos\\RiderProjects\\AdventOfCode18\\UnitTest\\UnitTest.csproj",
     "projectName": "UnitTest",
-    "projectPath": "D:\\Users\\ELukos\\C#Projects\\AdventOfCode18\\UnitTest\\UnitTest.csproj",
-    "outputPath": "D:\\Users\\ELukos\\C#Projects\\AdventOfCode18\\UnitTest\\obj\\",
+    "projectPath": "C:\\Users\\elukos\\RiderProjects\\AdventOfCode18\\UnitTest\\UnitTest.csproj",
+    "outputPath": "C:\\Users\\elukos\\RiderProjects\\AdventOfCode18\\UnitTest\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
-      "netcoreapp2.2"
+      "netcoreapp2.0"
     ],
     "frameworks": {
-      "netcoreapp2.2": {
+      "netcoreapp2.0": {
         "projectReferences": {
-          "D:\\Users\\ELukos\\C#Projects\\AdventOfCode18\\AdventOfCode18\\AdventOfCode18.csproj": {
-            "projectPath": "D:\\Users\\ELukos\\C#Projects\\AdventOfCode18\\AdventOfCode18\\AdventOfCode18.csproj"
+          "C:\\Users\\elukos\\RiderProjects\\AdventOfCode18\\AdventOfCode18\\AdventOfCode18.csproj": {
+            "projectPath": "C:\\Users\\elukos\\RiderProjects\\AdventOfCode18\\AdventOfCode18\\AdventOfCode18.csproj"
           }
         }
       }
@@ -28,7 +29,7 @@
     }
   },
   "frameworks": {
-    "netcoreapp2.2": {
+    "netcoreapp2.0": {
       "dependencies": {
         "Microsoft.NET.Test.Sdk": {
           "target": "Package",
@@ -37,7 +38,7 @@
         "Microsoft.NETCore.App": {
           "suppressParent": "All",
           "target": "Package",
-          "version": "[2.2.0, )",
+          "version": "[2.0.0, )",
           "autoReferenced": true
         },
         "xunit": {

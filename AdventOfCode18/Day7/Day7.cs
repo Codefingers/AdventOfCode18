@@ -3,22 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace AdventOfCode18
+namespace AdventOfCode18.Day7
 {
     public class Day7
     {
         private string order = "";
 
-        public int runTest()
+        public int getTotal(string file)
         {
-            int total = getTotal();
-
-            return 0;
-        }
-
-        private int getTotal()
-        {
-            string[] linesOriginal = System.IO.File.ReadAllLines(@"Day7.txt");
+            string[] linesOriginal = System.IO.File.ReadAllLines(file);
             var dependencies = new List<(string, string)>();
             List<string> letters = new List<string>();
             List<int> workers = new List<int>(5) {0, 0, 0, 0, 0};
@@ -68,7 +61,7 @@ namespace AdventOfCode18
                 second++;
             }
 
-            return 0;
+            return second;
         }
     }
 }

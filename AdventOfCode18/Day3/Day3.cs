@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AdventOfCode18
+namespace AdventOfCode18.Day3
 {
     public class Day3
     {

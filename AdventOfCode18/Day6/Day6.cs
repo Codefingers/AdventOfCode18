@@ -2,18 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace AdventOfCode18
+namespace AdventOfCode18.Day6
 {
     public class Day6
     {
-        public int runTest()
+        public int getTotal(string file)
         {
-            return getTotal();
-        }
-
-        private int getTotal()
-        {
-            string[] linesOriginal = System.IO.File.ReadAllLines(@"Day6.txt");
+            string[] linesOriginal = System.IO.File.ReadAllLines(file);
             Dictionary<(int, int), int> coords = new Dictionary<(int, int), int>();
 
             int maxX = 0;
@@ -114,7 +109,7 @@ namespace AdventOfCode18
 
             var max = coordCount.Values.Max();
             
-            return 0;
+            return max;
         }
     }
 }

@@ -2,16 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace AdventOfCode18
+namespace AdventOfCode18.Day5
 {
     public class Day5
     {
-        public int runTest()
-        {
-            return getTotal();
-        }
-
-        private int getTotal()
+        public int runTest(string file)
         {
             string[] alphabet = new string[]
             {
@@ -42,13 +37,13 @@ namespace AdventOfCode18
                 "y",
                 "z",
             };
-            string[] linesOriginal = System.IO.File.ReadAllLines(@"Day5.txt");
+            string[] linesOriginal = System.IO.File.ReadAllLines(file);
             int totalRemoved = linesOriginal[0].Length;
             string shortestPolymer = "";
 
             for (int k = 0; k < alphabet.Length; k++)
             {
-                string[] lines = System.IO.File.ReadAllLines(@"Day5.txt");
+                string[] lines = System.IO.File.ReadAllLines(file);
                 for (int i = 0; i < lines.Length; i++)
                 {
                     int removed = 1;
@@ -89,7 +84,7 @@ namespace AdventOfCode18
                 }
             }
 
-            return totalRemoved;
+            return shortestPolymer.Length;
         }
     }
 }
