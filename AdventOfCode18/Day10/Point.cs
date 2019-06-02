@@ -2,8 +2,8 @@
 {
     public class Point
     {
-        public int x { get; }
-        public int y { get; }
+        public int x { get; set; }
+        public int y { get; set; }
         public int xVelocity { get; }
         public int yVelocity { get; }
 
